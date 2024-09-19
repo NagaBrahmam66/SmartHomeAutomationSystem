@@ -1,0 +1,52 @@
+"SMART HOME AUTOMATION SYSTEM"
+This system will be help ful to the elderly and disable people to control the electrical loads with voice and clap sounds.
+This system is developed with the help of Arduino in TinkerCad and also with 8051 Microcontroller in Keil and Proteus softwares.
+As tinkercad and proteus are not having an in built soundsensors, those are replaced with switch and push buttons,
+In Tinkercad:-
+  one push button is used to simulate the working of soundsensor for clap commands and another set of 4 push buttons are used to simulate the working of sensor for voice commands
+    For clap command:-
+      one pushbutton is used for this
+      1 click on the push button sends the command to turn on the loads(i.e, 1 clap is made to turn on loads)
+      another click on the push button sends the command to turn off the loads(i.e, another clap is made to turn off the loads)
+    For voice commands:-
+      4 push buttons are used here
+      clicking on 1st button sends the command as 'light on'.
+      clicking on 2nd button sends the command as 'light off'.
+      clicking on 3rd button sends the command as 'fan on'.
+      clicking on 4th button sends the command as 'fan off'.
+
+In keil and proteus:-
+  Firstly we have to complie the program using keil then connect the circuit as in the circuit diagram.
+  here, for simulating the sound sensor to clap commands a switch is used in place of a sensor.
+  1 click on the switch sends the command to turn on the light (i.e, 1 clap is made to turn on light)
+  another click on the switch sends the command to turn off the loads(i.e, another clap is made to turn off the light)
+
+  Now for simulating the sound sensor to voice commands a push button is used in place of asensor.
+  1st click on the button sends the command as 'light on'.
+  2nd click on the button sends the command as 'light off'.
+  3rd click on the button sends the command as 'fan on'.
+  4th click on the button sends the command as 'fan off'.
+
+COMPONENTS REQUIRED:- in tinker cad
+Arduino for tinkercad
+led 
+Dcmotor with relay in Tinkercad
+9v battery in tinkers
+5 push buttons
+6 resistors
+  1 330ohm resistor for led
+  5 10kohm pull-up resitors
+connecting wires
+
+COMPONENTS REQUIRED:- in proteus
+8051 Microcontroller for Proteus
+Dcmotor with diode(1n007), 1kohm resistor and transistor(2n2222) in proteus.
+led
+switch
+pushbutton
+2 10k0hm pull-up resistors
+220kohm resistor
+power supply
+ground 
+
+
